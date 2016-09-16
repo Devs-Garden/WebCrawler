@@ -1,0 +1,34 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "webcrawler in nodejs using simple webcrawler",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "crawler": "^0.4.3",
+    "node-fs": "^0.1.7",
+    "path": "^0.12.7",
+    "simplecrawler": "^1.0.1",
+    "sinon": "^1.17.5",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js http://www.domainname.com",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syamdanda/WebCrawler.git"
+  },
+  "keywords": [
+    "Webcrawler",
+    "webcrawler"
+  ],
+  "author": "Syam Danda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syamdanda/WebCrawler/issues"
+  },
+  "homepage": "https://github.com/syamdanda/WebCrawler#readme"
+}
